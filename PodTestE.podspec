@@ -105,8 +105,8 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  # s.resource  = "icon.png"
-    s.resources = "PodTestE/*.{xib, png, jpg}"
+   s.resource  = "PodTestE/Yoshi.png"
+#   s.resources = "PodTestE/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 

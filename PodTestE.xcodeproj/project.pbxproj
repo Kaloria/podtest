@@ -13,8 +13,9 @@
 		40F2C1FB1CE5131100A1D075 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F2C1F61CE5131100A1D075 /* TestViewController.m */; };
 		40F2C1FC1CE5131100A1D075 /* UITestView.h in Headers */ = {isa = PBXBuildFile; fileRef = 40F2C1F71CE5131100A1D075 /* UITestView.h */; };
 		40F2C1FD1CE5131100A1D075 /* UITestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F2C1F81CE5131100A1D075 /* UITestView.m */; };
-		40F92BCA1CE5180900535201 /* PodTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 40F92BC81CE5180900535201 /* PodTest.h */; };
-		40F92BCB1CE5180900535201 /* PodTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F92BC91CE5180900535201 /* PodTest.m */; };
+		40F92BCE1CE51C5500535201 /* PodTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F92BCC1CE51C5500535201 /* PodTest.m */; };
+		40F92BCF1CE51C5500535201 /* PodTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 40F92BCD1CE51C5500535201 /* PodTest.h */; };
+		40F92BD11CE5206400535201 /* Yoshi.png in Resources */ = {isa = PBXBuildFile; fileRef = 40F92BD01CE5206400535201 /* Yoshi.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +27,9 @@
 		40F2C1F61CE5131100A1D075 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		40F2C1F71CE5131100A1D075 /* UITestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITestView.h; sourceTree = "<group>"; };
 		40F2C1F81CE5131100A1D075 /* UITestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITestView.m; sourceTree = "<group>"; };
-		40F92BC81CE5180900535201 /* PodTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PodTest.h; sourceTree = "<group>"; };
-		40F92BC91CE5180900535201 /* PodTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PodTest.m; sourceTree = "<group>"; };
+		40F92BCC1CE51C5500535201 /* PodTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PodTest.m; sourceTree = "<group>"; };
+		40F92BCD1CE51C5500535201 /* PodTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PodTest.h; sourceTree = "<group>"; };
+		40F92BD01CE5206400535201 /* Yoshi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yoshi.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,9 @@
 		40F2C1EB1CE50F9A00A1D075 /* PodTestE */ = {
 			isa = PBXGroup;
 			children = (
+				40F92BD01CE5206400535201 /* Yoshi.png */,
+				40F92BCC1CE51C5500535201 /* PodTest.m */,
+				40F92BCD1CE51C5500535201 /* PodTest.h */,
 				40F2C1F41CE5131100A1D075 /* TestView.xib */,
 				40F2C1F51CE5131100A1D075 /* TestViewController.h */,
 				40F2C1F61CE5131100A1D075 /* TestViewController.m */,
@@ -67,8 +72,6 @@
 				40F2C1F81CE5131100A1D075 /* UITestView.m */,
 				40F2C1EC1CE50F9A00A1D075 /* PodTestE.h */,
 				40F2C1EE1CE50F9A00A1D075 /* Info.plist */,
-				40F92BC81CE5180900535201 /* PodTest.h */,
-				40F92BC91CE5180900535201 /* PodTest.m */,
 			);
 			path = PodTestE;
 			sourceTree = "<group>";
@@ -82,7 +85,7 @@
 			files = (
 				40F2C1ED1CE50F9A00A1D075 /* PodTestE.h in Headers */,
 				40F2C1FA1CE5131100A1D075 /* TestViewController.h in Headers */,
-				40F92BCA1CE5180900535201 /* PodTest.h in Headers */,
+				40F92BCF1CE51C5500535201 /* PodTest.h in Headers */,
 				40F2C1FC1CE5131100A1D075 /* UITestView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40F92BD11CE5206400535201 /* Yoshi.png in Resources */,
 				40F2C1F91CE5131100A1D075 /* TestView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,7 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40F92BCB1CE5180900535201 /* PodTest.m in Sources */,
+				40F92BCE1CE51C5500535201 /* PodTest.m in Sources */,
 				40F2C1FD1CE5131100A1D075 /* UITestView.m in Sources */,
 				40F2C1FB1CE5131100A1D075 /* TestViewController.m in Sources */,
 			);
