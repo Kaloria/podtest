@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "PodTestE"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "I dont know."
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/Kaloria/podtest.git", :tag => "0.0.4" }
+  s.source       = { :git => "https://github.com/Kaloria/podtest.git", :tag => "0.0.5" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -105,8 +105,8 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-   s.resource  = "PodTestE/Yoshi.png"
-#   s.resources = "PodTestE/*.png"
+#  s.resource  = "PodTestE/Yoshi.png"
+   s.resources = "PodTestE/*.xib"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
