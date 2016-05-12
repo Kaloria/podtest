@@ -106,7 +106,7 @@ Pod::Spec.new do |s|
   #
 
 #  s.resource  = "PodTestE/Yoshi.png"
-   s.resources = "PodTestE/*.png"
+   s.resources = "PodTestE/*.xib"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
