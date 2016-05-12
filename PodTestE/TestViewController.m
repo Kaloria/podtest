@@ -18,9 +18,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    UIView *testView = [[[NSBundle mainBundle] loadNibNamed:@"TestView" owner:nil options:nil] firstObject];
+  //  UIView *testView = [[[NSBundle mainBundle] loadNibNamed:@"TestView" owner:nil options:nil] firstObject];
     
-    
+    //testView.backgroundColor = [UIColor redColor];
 }
 
 - (void)didReceiveMemoryWarning {

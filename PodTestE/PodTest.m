@@ -16,8 +16,9 @@
     
     if (self) {
         
-        UIView *testView = [[[NSBundle mainBundle] loadNibNamed:@"TestView" owner:nil options:nil] firstObject];
+        //UIView *testView = [[[NSBundle mainBundle] loadNibNamed:@"TestView" owner:nil options:nil] firstObject];
         
+        //testView.backgroundColor = [UIColor purpleColor];
     }
     
     return self;
