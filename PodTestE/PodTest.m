@@ -16,9 +16,16 @@
     
     if (self) {
         
-        UIView *testView = [[[NSBundle mainBundle] loadNibNamed:@"TestView" owner:nil options:nil] firstObject];
+        NSBundle *podBundle = [NSBundle bundleForClass:[PodTest class]];
+        NSURL *podURL = [podBundle URLForResource:@"PodTestE" withExtension:@"bundle"];
+        NSBundle *bundle = [NSBundle bundleWithURL:podURL];
+        
+        UIView *testView = [[bundle loadNibNamed:@"TestView" owner:nil options:nil] firstObject];
+        
+    //    NSURL *budnleURL = [NSBundle ]
         
         testView.backgroundColor = [UIColor purpleColor];
+        self.special = testView;
     }
     
     return self;
