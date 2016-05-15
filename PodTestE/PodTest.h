@@ -14,5 +14,4 @@
 - (instancetype)initWithView:(UIView *)view;
 
 @property (nonatomic, strong) UIView *special;
-
 @end
